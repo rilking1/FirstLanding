@@ -1,0 +1,61 @@
+﻿.slider {
+  height: 248px;
+  min-width: 100px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.TasksWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 14px;
+  position: relative;
+  background-color: darkblue;
+}
+
+.TasksWrapper:first-child {
+  margin-left: 46px;
+}
+
+.TasksImg {
+  width: 248px;
+  height: 248px;
+  background-color: violet;
+}
+
+.SelectedTasksText {
+  position: absolute;
+  width: 320px;
+  height: 43px;
+  background-color: darkorange;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  top: -59px;
+}
+
+.SelectedTasksImg {
+  border: 6px solid rgb(67, 214, 223);
+  position: absolute;
+  width: 256px;
+  height: 256px;
+  bottom: -10px;
+  display: none;
+}
+
+.TasksWrapper:hover > .SelectedTasksImg {
+  display: block;
+}
+
+.TasksWrapper:hover > .SelectedTasksText {
+  display: flex;
+}
+
+.TasksWrapper:focus > .SelectedTasksImg {
+  display: flex;
+}

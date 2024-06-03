@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "2QlC/6ipEGwRJvqSsQpBNn1X3nygSfJRayfmLleTsvU=",
+  "Source": "FirstLanding.Server",
+  "BasePath": "_content/FirstLanding.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Roman\\source\\repos\\FirstLanding\\firstlanding.client\\firstlanding.client.esproj",
+      "Version": 2,
+      "Source": "firstlanding.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
